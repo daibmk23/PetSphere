@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="650.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+    <top>
+        <MenuBar BorderPane.alignment="CENTER">
+            <Menu text="PetSphere">
+            <items>
+               <MenuItem mnemonicParsing="false" onAction="#switchToHome" text="Home" />
+            </items></Menu>
+            <Menu text="Animals">
+            <items>
+               <MenuItem mnemonicParsing="false" onAction="#switchToAnimalInformationManagement" text="Animal Information" />
+            </items></Menu>
+            <Menu text="Scheduling">
+            <items>
+               <MenuItem mnemonicParsing="false" onAction="#switchToEventManagement" text="Event Management" />
+               <MenuItem mnemonicParsing="false" onAction="#switchToStaffScheduling" text="Staff Scheduling" />
+            </items></Menu>
+            <Menu style="-fx-font-weight: bold;" text="Adoptions">
+            <items>
+               <MenuItem mnemonicParsing="false" onAction="#switchToAdoptionFacilitation" text="Adoption Facilitation" />
+            </items></Menu>
+            <Menu text="Reports">
+            <items>
+               <MenuItem mnemonicParsing="false" onAction="#switchToMedicalRecords" text="Medical Records" />
+            </items></Menu>
+            <Menu text="Settings">
+            <items>
+               <MenuItem mnemonicParsing="false" onAction="#switchToUserManagement" text="User Management" />
+            </items></Menu>
+        </MenuBar>
+    </top>
+    <center>
+        <VBox alignment="TOP_CENTER" prefHeight="723.0" prefWidth="1024.0" spacing="20" style="-fx-background-color: E7D39B;">
+            <padding>
+              <Insets bottom="20" left="20" right="20" top="20" />
+            </padding>
+         <HBox alignment="TOP_CENTER" prefHeight="46.0" prefWidth="1240.0">
+            <children>
+               <Label alignment="TOP_CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="273.0" style="-fx-background-color: FFF8DC; -fx-background-radius: 20;" text="DONATION MANAGEMENT">
+                  <font>
+                     <Font name="System Bold" size="20.0" />
+                  </font>
+               </Label>
+            </children>
+         </HBox>
+            <HBox alignment="CENTER" spacing="10" />
+         <VBox alignment="CENTER" prefHeight="201.0" prefWidth="1240.0" style="-fx-background-color: FFF8DC; -fx-background-radius: 20;">
+            <children>
+               <HBox alignment="TOP_CENTER" prefHeight="2.0" prefWidth="1240.0">
+                  <children>
+                     <Label alignment="CENTER" prefHeight="30.0" prefWidth="274.0" style="-fx-weight: bold;" text="Month's Donor Information">
+                        <font>
+                           <Font name="System Bold" size="20.0" />
+                        </font>
+                        <HBox.margin>
+                           <Insets bottom="5.0" />
+                        </HBox.margin>
+                     </Label>
+                  </children>
+               </HBox>
+               <HBox prefHeight="35.0" prefWidth="984.0">
+                  <children>
+                     <HBox alignment="TOP_CENTER" prefHeight="35.0" prefWidth="984.0">
+                        <children>
+                           <Label prefHeight="21.0" prefWidth="140.0" text="  Jack Black ">
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                           </Label>
+                           <Label fx:id="refundlb1" prefHeight="0.0" prefWidth="60.0" text="\$50">
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                           </Label>
+                           <Label prefHeight="21.0" prefWidth="202.0" text="[3/12/2023]  [Food]">
+                              <font>
+                                 <Font size="15.0" />
+                              </font>
+                           </Label>
+                           <Label prefHeight="23.0" prefWidth="59.0" />
+                           <Button fx:id="refund1" mnemonicParsing="false" onAction="#refund" style="-fx-background-color: #ff6363;" text="Refund" textFill="WHITE" />
+                        </children>
+                     </HBox>
+                  </children>
+               </HBox>
+               <HBox prefHeight="35.0" prefWidth="984.0">
+                  <children>
+                     <HBox alignment="TOP_CENTER" prefHeight="35.0" prefWidth="984.0">
+                        <children>
+                           <Label prefHeight="21.0" prefWidth="139.0" text="  Eddie Murphy">
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                           </Label>
+                           <Label fx:id="refundlb2" prefHeight="0.0" prefWidth="60.0" text="\$50">
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                           </Label>
+                           <Label prefHeight="21.0" prefWidth="202.0" text="[13/12/2023]  [General]">
+                              <font>
+                                 <Font size="15.0" />
+                              </font>
+                           </Label>
+                           <Label prefHeight="23.0" prefWidth="59.0" />
+                           <Button fx:id="refund2" mnemonicParsing="false" onAction="#refunds2" style="-fx-background-color: #ff6363;" text="Refund" textFill="WHITE" />
+                        </children>
+                     </HBox>
+                  </children>
+               </HBox>
+               <HBox prefHeight="35.0" prefWidth="984.0">
+                  <children>
+                     <HBox alignment="TOP_CENTER" prefHeight="35.0" prefWidth="984.0">
+                        <children>
+                           <Label prefHeight="21.0" prefWidth="139.0" text="  Virat Kohli">
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                           </Label>
+                           <Label fx:id="refundlb3" prefHeight="0.0" prefWidth="60.0" text="\$150">
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                           </Label>
+                           <Label prefHeight="21.0" prefWidth="202.0" text="[13/12/2023]  [Health]">
+                              <font>
+                                 <Font size="15.0" />
+                              </font>
+                           </Label>
+                           <Label prefHeight="23.0" prefWidth="59.0" />
+                           <Button fx:id="refund3" mnemonicParsing="false" onAction="#refunds3" style="-fx-background-color: #ff6363;" text="Refund" textFill="WHITE" />
+                        </children>
+                     </HBox>
+                  </children>
+               </HBox>
+               <HBox prefHeight="35.0" prefWidth="984.0">
+                  <children>
+                     <HBox alignment="TOP_CENTER" prefHeight="35.0" prefWidth="984.0">
+                        <children>
+                           <Label prefHeight="21.0" prefWidth="139.0" text="  Yunus Emre">
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                           </Label>
+                           <Label fx:id="refundlb4" prefHeight="0.0" prefWidth="60.0" text="\$100">
+                              <font>
+                                 <Font name="System Bold" size="15.0" />
+                              </font>
+                           </Label>
+                           <Label prefHeight="19.0" prefWidth="202.0" text="[23/12/2023]  [General]">
+                              <font>
+                                 <Font size="15.0" />
+                              </font>
+                           </Label>
+                           <Label prefHeight="23.0" prefWidth="59.0" />
+                           <Button fx:id="refund4" mnemonicParsing="false" onAction="#refunds4" style="-fx-background-color: #ff6363;" text="Refund" textFill="WHITE" />
+                        </children>
+                     </HBox>
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+         <VBox alignment="CENTER_LEFT" prefHeight="234.0" prefWidth="1240.0" style="-fx-background-color: FFF8DC; -fx-background-radius: 20;">
+            <children>
+               <HBox alignment="TOP_CENTER" prefHeight="35.0" prefWidth="984.0">
+                  <children>
+                     <Label alignment="CENTER" prefHeight="30.0" prefWidth="182.0" style="-fx-weight: bold;" text="Donation Statistics">
+                        <font>
+                           <Font name="System Bold" size="20.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </HBox>
+               <HBox alignment="TOP_CENTER" prefHeight="35.0" prefWidth="984.0">
+                  <children>
+                     <Label prefHeight="26.0" prefWidth="203.0" text="Donations in this month:">
+                        <font>
+                           <Font size="17.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="donations" text="\$350" textFill="#52802a">
+                        <font>
+                           <Font name="System Bold" size="16.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </HBox>
+               <HBox alignment="TOP_CENTER" prefHeight="35.0" prefWidth="984.0">
+                  <children>
+                     <Label prefHeight="26.0" prefWidth="132.0" text="Month's Donors:">
+                        <font>
+                           <Font size="17.0" />
+                        </font>
+                     </Label>
+                     <Label prefHeight="26.0" prefWidth="392.0" text="Jack Black, Eddie Murphy, Virat Kohli, Yunus Emre" textFill="#535353">
+                        <font>
+                           <Font name="System Bold" size="16.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </HBox>
+               <HBox alignment="TOP_CENTER" prefHeight="35.0" prefWidth="984.0">
+                  <children>
+                     <Label prefHeight="26.0" prefWidth="125.0" text="Total Refunds:">
+                        <font>
+                           <Font size="17.0" />
+                        </font>
+                     </Label>
+                     <Label fx:id="refunds" text="\$0" textFill="#ed0000">
+                        <font>
+                           <Font name="System Bold" size="16.0" />
+                        </font>
+                     </Label>
+                  </children>
+               </HBox>
+            </children>
+         </VBox>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox alignment="BOTTOM_RIGHT" prefHeight="5.0" prefWidth="1024.0" spacing="10" style="-fx-background-color: FFF8DC;">
+            <padding>
+                <Insets bottom="10" left="10" right="10" top="10" />
+            </padding>
+            <Label fx:id="statusLabel" prefHeight="19.0" prefWidth="53.0" text="Welcome" />
+         <Label prefHeight="19.0" prefWidth="31.0" text="Staff" />
+            <Label prefHeight="0.0" prefWidth="97.0" text="|    20/11/2023" />
+         <Button mnemonicParsing="false" onAction="#logOut" prefHeight="25.0" prefWidth="68.0" style="-fx-background-color: FF3838;" text="Log Out" textFill="WHITE" />
+        </HBox>
+    </bottom>
+</BorderPane>

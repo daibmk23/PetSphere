@@ -8,7 +8,7 @@ Daib Malik
     Event Management
     Staff Scheduling
   --Backend:
-    Database management for above mentioned pages and Settings, Medical Records page.
+    Database management for the mentioned pages, and Settings and Medical Records page.
 
 Emre Anıl Polat 
   --Frontend:
@@ -35,4 +35,4 @@ Yusuf Nazım Pehlivan
     Adoption Facilitation
     Homepage
   --Backend:
-    Started MongoDB process and helped with integration of it. DBMS for above mentioned pages
+    Started MongoDB process and helped with integration of it. DBMS for the mentioned pages

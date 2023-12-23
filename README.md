@@ -3,36 +3,36 @@ We weren't able to push/pull our codes individually due to some error (we were a
 FXML files mentioned below are the pages of our application.
 
 Daib Malik 
-  -Frontend:
+  --Frontend:
     Donation Management
     Event Management
     Staff Scheduling
-  -Backend:
+  --Backend:
     Database management for above mentioned pages and Settings, Medical Records page.
 
 Emre Anıl Polat 
-  -Frontend:
+  --Frontend:
     User Management
     Help/Support
     Favorites
 
 Habil Şiar Savaş
-  -Frontend:
+  --Frontend:
     Registration Page
     Settings
 
 Isa Ahmad Khan
-  -Frontend:
+  --Frontend:
     Login Page
     Medical Records
     Dashboard
-  -Backend:
+  --Backend:
     Login and Registration DBMS
 
 Yusuf Nazım Pehlivan
-  -Frontend:
+  --Frontend:
     Animal Informaiton Management
     Adoption Facilitation
     Homepage
-  -Backend:
+  --Backend:
     Started MongoDB process and helped with integration of it. DBMS for above mentioned pages

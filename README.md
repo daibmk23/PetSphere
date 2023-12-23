@@ -63,7 +63,7 @@ Yusuf Nazım Pehlivan
 - MongoDB/NewSQL?
 
   2nd Decemeber:
-- finished Detailed Design Report (Yusuf and Daib)
+- finished Detailed Design Report v1 (Yusuf and Daib)
 - issues with pulling requests on Github. Using telegram, discord, and whatsapp to share files for now.
 - 60% frontend completed
 
@@ -76,6 +76,6 @@ Yusuf Nazım Pehlivan
 - prepared the presentation and demo (Daib)
 
   23rd Dec:
-- detailed design report V2 done (Daib)
+- detailed design report v2 done (Daib)
 - Github Repository and Code submission (Daib)
   

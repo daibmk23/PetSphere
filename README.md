@@ -35,7 +35,7 @@ Yusuf Nazım Pehlivan
     Adoption Facilitation
     Homepage
   --Backend:
-    Started MongoDB process and helped with integration of it. DBMS for the mentioned pages
+    Started the MongoDB process and helped with integration of it. DBMS for the mentioned pages
     
 # HOW TO EXECUTE
   In the src, under application folder, there is main file named Main.java. Runing that file will display the first page of the application (Login Page in this case), but for easy navigatioin, it can be changed to any page by simply entering the name of FXML into the root/FXML loader line. Some of the saved emails and passwords are written in a text file Data.txt to test the login page. You can also register as a new user/customer and the application will take you to the user interface. To access the staff interface, you need enter a valid email id ending with "@ug.bilkent.edu.tr". One example of staff has already been save in Data.txt and staff pages can be accessed through that staff user credentials. 

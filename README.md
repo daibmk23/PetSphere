@@ -41,7 +41,6 @@ Yusuf Nazım Pehlivan
   In the src, under application folder, there is main file named Main.java. Runing that file will display the first page of the application (Login Page in this case), but for easy navigatioin, it can be changed to any page by simply entering the name of FXML into the root/FXML loader line. Some of the saved emails and passwords are written in a text file Data.txt to test the login page. You can also register as a new user/customer and the application will take you to the user interface. To access the staff interface, you need enter a valid email id ending with "@ug.bilkent.edu.tr". One example of staff has already been save in Data.txt and staff pages can be accessed through that staff user credentials. 
 
 # MEETING LOGS
-There are some 
   1st October: 
 - Finalized our project, deciding to make an application for pet adoption
 - Decided to use JavaFX for the making of application

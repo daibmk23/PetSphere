@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1280.0" style="-fx-background-color: #F0F1D8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <ImageView fitHeight="692.0" fitWidth="1292.0" layoutX="-6.0" layoutY="-2.0">
+         <image>
+            <Image url="@background.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="74.0" layoutY="99.0" prefHeight="525.0" prefWidth="375.0" style="-fx-background-color: E9C0A2; -fx-border-radius: 20;">
+         <children>
+            <TextField fx:id="userEmail" alignment="CENTER" layoutX="36.0" layoutY="160.0" prefHeight="36.0" prefWidth="295.0" promptText="Example: xyz@gmail.com">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Label layoutX="67.0" layoutY="42.0" prefHeight="48.0" prefWidth="212.0" style="-fx-background-color: FFF8DC; -fx-background-radius: 20;" text=" Sign in with email">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <PasswordField fx:id="userPassword" layoutX="37.0" layoutY="294.0" prefHeight="36.0" prefWidth="296.0">
+               <font>
+                  <Font size="17.0" />
+               </font></PasswordField>
+            <Label layoutX="33.0" layoutY="237.0" prefHeight="36.0" prefWidth="105.0" style="-fx-background-color: FFF8DC; -fx-background-radius: 20;" text=" Password">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="38.0" layoutY="110.0" prefHeight="32.0" prefWidth="64.0" style="-fx-background-color: FFF8DC; -fx-background-radius: 20;" text=" Email">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+            <Button layoutX="41.0" layoutY="375.0" mnemonicParsing="false" onAction="#login" prefHeight="32.0" prefWidth="85.0" style="-fx-background-color: #ECB430;" text="Sign In">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Button layoutX="132.0" layoutY="461.0" mnemonicParsing="false" onAction="#switchScene2" prefHeight="39.0" prefWidth="94.0" style="-fx-background-color: #ECB430;" text="Sign Up">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+            <Label layoutX="135.0" layoutY="426.0" text="New User?">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="173.0" layoutY="376.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="163.0" style="-fx-background-color: E9C0A2;" text="Forgot Password" textFill="#2730d9">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <Pane prefHeight="48.0" prefWidth="1287.0" style="-fx-background-color: #333333;">
+         <children>
+            <Label layoutX="23.0" layoutY="-4.0" prefHeight="44.0" prefWidth="147.0" text="PetSphere" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI Emoji" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

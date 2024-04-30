@@ -1,6 +1,4 @@
 # PetSphere
-We could not push/pull our codes individually due to some error (we were all using different IDEs, which may be the reason), so I am uploading all our files and stating each member's role in making our application. FXML files mentioned below are the pages of our application.
-
 # DIVISION OF WORK
 Daib Malik 
   --Frontend:
